@@ -47,16 +47,12 @@ function ZahalnaOcinka(props) {
   const block = [];
   const num = [];
   for (var key of Object.keys(names)) {
-    // console.log(key + " -> " + names[key]);
    block.push(key)
    num.push(names[key])
   }
   console.log(num + "this is num");
   let calc =calcZahalnaOcinka(num)
-  // for(let i = 0; i < num.length; i++){
-  //  calc = calcZahalnaOcinka(num[i]); 
-  //  console.log(calc);
-  // }
+  
  console.log(calc);
   const blockDiv = block.map((el) => (
     <div className="block">

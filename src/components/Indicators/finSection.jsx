@@ -27,7 +27,6 @@ function calcZahalnaOcinka(value) {
       return "positive"
     }
   }
-  
 
   return (
     <div className="fin-section">

@@ -2,23 +2,31 @@ import React from "react";
 import { Line } from "react-chartjs-2";
 
 function LineChart(props) {
-  console.log(props.value);
-  const names = props.value[0];
-  // const arr =[];
-  // for (var key of Object.keys(names)) {
-  //   console.log(key + " -> " + names[key]);
-  //   arr.push(names[key])
-  // }
-  // const dynamika = arr[2];
-  
-  // console.log(dynamika["rik"]);
-  // for(let i = 0; i < dynamika.length; i++){
-  //   yValues.push(dynamika[i]["rik"]);
-  // }
-
-  let xValues = [1, 3, 5, 6];
-  let yValues = [1,2,3,4,5,];
-
+  let dict = {
+    indicator: {
+      positive: {
+        name: "Позитивна оцінка",
+        class: "green",
+      },
+      negative: {
+        name: "Негативна оцінка",
+        class: "error-light",
+      },
+      acceptable: {
+        name: "Прийнятна оцінка",
+        class: "attention_light",
+      },
+    },
+  };
+  const num = [];
+  for (var key of Object.keys(props.value[0])) {
+   num.push(props.value[0][key])
+  }
+let xValues = num.map(el => el.rik);
+let yValues = num.map(el => el.znachennya);
+// const changeBgColor =()=>{
+//   ???
+// }
   const data = {
     labels: xValues,
     datasets: [

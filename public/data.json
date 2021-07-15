@@ -46,9 +46,9 @@
                 "znachennya": 40368039.0
               }
             ],
-            "znachymist": 0.25,
-            "otsinka": 5.0,
-            "pidsumkoveZnachennya": 1.25
+            "znachymist": 0,
+            "otsinka": 0,
+            "pidsumkoveZnachennya": 0
           },
           {
             "type": "dilovaAktyvnist",
