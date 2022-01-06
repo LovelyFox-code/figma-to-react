@@ -4,7 +4,7 @@ function Main() {
     return (
         <div>
             <div className="main">
-                <h1>ТОВ “ВЕБ ДРІМ ТЕХНОЛОДЖІ”</h1>
+                <h1>ТОВ “ДРІМ ТЕХНОЛОДЖІ”</h1>
         <h1 style={{ fontSize: '18px'}}>
                     Фінансовий скоринг компанії
                 </h1>

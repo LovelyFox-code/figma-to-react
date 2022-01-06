@@ -6,7 +6,7 @@ function Navbar() {
              <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 
 <div className="container-fluid">
-    <a className="navbar-brand" href="#">Vkursi Pro</a>
+    <a className="navbar-brand" href="#">LOGO</a>
     <ul className="navbar-nav mr-auto">
         <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
